@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabelas</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <table border="2" width="50%">
+            <!-- border = "grossura" da borda da tabela -->
+            <!-- width = tamanho da tabela (em pixels ou porcentagem do navegador) -->
+            <!-- th = table header -->
+            <!-- tr = table row -->
+            <!-- td = table data -->
+            <!-- colspan = extensao da coluna (para ocupar mais celular de colunas) -->
+            <!-- rowspan = extensao da linha (para ocupar mais celular de linhas)  -->
+            <tr>
+                <th>Código</th> <!-- Linha 1 -->
+                <th>Produto</th> <!-- Linha 1 -->
+                <th>Preço</th> <!-- Linha 1 -->
+            </tr>
+            <tr>
+                <td>PROD-001</td> <!-- Linha 2 -->
+                <td>Produto 1</td> <!-- Linha 2 -->
+                <td>R$ 100,00</td> <!-- Linha 2 -->
+            </tr>
+            <tr>
+                <td>PROD-002</td> <!-- Linha 3 -->
+                <td>Produto 2</td> <!-- Linha 3 -->
+                <td>R$ 200,00</td> <!-- Linha 3 -->
+            </tr>
+            <tr>
+                <th rowspan="2">Descontos</th>
+                <td colspan="2" align="center">Cupom 1 - R$ 10,00</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">Cupom 2 - R$ 20,00</td>
+            </tr>
+            <tr>
+                <th>Total</th>
+                <td colspan="2" align="right">R$ 270,00</td>
+            </tr>
+
+        </table>
+    </body>
+</html>
