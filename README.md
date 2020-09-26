@@ -1,2 +1,2 @@
 # web-dev-codes
-Códigos do Curso de Web Development (Projetos ficarão em outros repositórios)
+Códigos e Projetos do Curso de Web Development
