@@ -1,0 +1,39 @@
+.conteudo {
+    border: 1px solid red;
+
+    /* Espaçamentos internos individuais */
+    /* 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+     */
+
+    /* Espaçamentos internos individuais em um unico comando */
+    /* padding: 20px 15px 10px 5px; */
+    
+    /* Espaçamento internos vertical (top-bottom) e horizontal  (right-left)*/
+    /* padding: 20px 5px; */
+
+    /* Espaçamento internos uniforme */
+    padding: 20px;
+
+    /* Espaçamentos externos individuais */
+    /* 
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+     */
+
+    /* Espaçamentos externos individuais em um unico comando */
+    /* margin: 20px 15px 10px 5px; */
+    
+    /* Espaçamento externoe vertical (top-bottom) e horizontal  (right-left)*/
+    /* margin: 20px 5px; */
+
+    /* Espaçamento externoe uniforme */
+    margin: 20px;
+
+    width: 150px;
+}
